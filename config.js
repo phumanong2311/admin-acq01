@@ -1,7 +1,7 @@
 var config = {
   server: {
     protocol: 'http',
-    host: 'localhost',
+    host: '103.137.185.70',
     port: '3102'
   }
 }

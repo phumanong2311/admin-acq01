@@ -7,8 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
+    "s": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
+    "start": "npm run-script s & npm run-script build",
     "build": "webpack --config webpack.config.development.js",
     "build1": "react-scripts build"
   },
